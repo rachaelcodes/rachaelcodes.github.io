@@ -29,6 +29,7 @@ h1 {
 }
 aside {
 	width: 34%;
+	max-width: 34%;
 	height: 100%;
 	background-color: black;
 	color: white;
@@ -44,28 +45,55 @@ aside {
 	padding-bottom: 10px;
 	padding-left: 20px;
 	padding-right: 20px;
+	background-size: cover;
+	text-indent: 150%;
+  	white-space: nowrap;
+  	overflow: hidden;
+
 }
 
+#link1 {
+	background-image: url(lottery_thumb.jpg);
+}
+#link2 {
+	background-image: url(styling_thumb.jpg);
+}
+#link3 {
+	background-image: url(count_thumb.jpg);
+}
+#link4 {
+	background-image: url(weather_thumb.jpg);
+}
 a .link {
 	color: white;	
 }
 
+a:hover .link {
+	text-indent: 0;
+	white-space: normal;
+	text-overflow: ellipsis;
+}
+
 a:hover #link1 {
+	background-image: none;
 	background-color: #FB6900;
 	color: #FFD1B1;
 }
 
 a:hover #link2 {
+	background-image: none;
 	background-color: #F63700;
 	color: #FFC1AF;
 }
 
 a:hover #link3 {
+	background-image: none;
 	background-color: #004853;
 	color: #01DCFB;
 }
 
 a:hover #link4 {
+	background-image: none;
 	background-color: #00B9BD;
 	color: #AEF2F2;
 }
