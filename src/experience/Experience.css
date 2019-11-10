@@ -1,9 +1,18 @@
+.Experience {
+  margin-bottom: 1rem;
+}
+
 .Experience-contents {
   flex-wrap: wrap;
   justify-content: center;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 1rem;
+}
+@media (min-width: 906px) { 
+  .Experience-contents {
+    grid-template-columns: 1fr 1fr;
+  } 
 }
 
 .Project {
