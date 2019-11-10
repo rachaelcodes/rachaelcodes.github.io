@@ -1,0 +1,39 @@
+.App {
+  /* text-align: center; */
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #1D1D43;
+  background: linear-gradient(180deg, #0E0A14 0%, #1D1D43 35%, #3D3772 100%);
+  color: whitesmoke;
+  height: 100vh;
+  width: 100vw;
+  overflow: scroll;
+  position: relative;
+}
+
+.App-credits {
+  text-align: right;
+  font-size: 0.8rem;
+}
+
+.App-credits a {
+  color: whitesmoke;
+}
+
+.App-credits a:hover {
+  color: white;
+}
+
+.App-contents {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  padding: 1.5rem;
+  z-index: 10;
+}
+
+.P5 {
+  position: fixed;
+  top: 0;
+  left: 0;
+}

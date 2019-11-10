@@ -1,0 +1,21 @@
+.Heading {
+  position: relative;
+  color: whitesmoke;
+  padding: 3rem 0 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.Heading h1 {
+  margin-bottom: 0;
+  font-size: 2.5rem;
+}
+
+.Heading span {
+  color: #FFB63B;
+  text-shadow: 1px 1px 1px darkslategrey;
+}
+
+.Heading p {
+  font-size: 2rem;
+  margin-top: 0.7rem;
+}

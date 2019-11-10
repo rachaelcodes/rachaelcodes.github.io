@@ -1,0 +1,79 @@
+.Experience {
+  margin-bottom: 1rem;
+}
+
+.Experience-contents {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+}
+@media (min-width: 906px) { 
+  .Experience-contents {
+    grid-template-columns: 1fr 1fr;
+  } 
+}
+
+.Project {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  min-width: 300px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.Project-overview {
+  position: relative;
+  margin: 0 auto;
+}
+
+.Project-overview-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.Project-overview-text {
+  opacity: 0;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  color: whitesmoke;
+  text-shadow: 1px 1px 1px darkslategrey;
+  font-weight: bold;
+  padding: 1rem;
+  width: 100%;
+  transition: all 0.5s ease-in;
+  background-color: rgba(29, 29, 67, 0.75);
+}
+
+.Project:hover .Project-overview-img {
+  opacity: 0.5;
+  filter: blur(1px) grayscale(100%) sepia(100%) hue-rotate(200deg);
+}
+
+.Project:hover .Project-overview-text {
+  opacity: 1;
+}
+
+.Project-detail-text {
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+}
+
+.Project-detail-emphasis {
+  font-weight: bold;
+  display: inline-block;
+  transition: all 0.5s ease-in;
+  padding: 0 3px;
+}
+
+.Project:hover .Project-detail-emphasis {
+  color: #FFB63B;
+  text-shadow: 1px 1px 1px darkslategrey;
+}
+
+.Project-detail-emphasis > p {
+  margin: 0;
+}
