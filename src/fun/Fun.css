@@ -1,5 +1,10 @@
 .Fun {
   margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.Fun h2 {
+  font-size: 2rem;
 }
 
 .Fun-list {

@@ -1,13 +1,13 @@
 .Heading {
   position: relative;
   color: whitesmoke;
-  padding: 3rem 0 1rem;
+  padding: 6rem 0 3rem;
   margin-bottom: 0.5rem;
 }
 
 .Heading h1 {
   margin-bottom: 0;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 
 .Heading span {
@@ -16,6 +16,6 @@
 }
 
 .Heading p {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-top: 0.7rem;
 }
